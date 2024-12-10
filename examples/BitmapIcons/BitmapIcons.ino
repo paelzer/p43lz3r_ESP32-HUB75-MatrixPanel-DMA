@@ -11,6 +11,9 @@
 
 
 /*--------------------- RGB DISPLAY PINS -------------------------*/
+
+//p43lz3r -> outcommented so the default pin defines for ESP32 S3 devkit are used
+/*
 #define R1_PIN 25
 #define G1_PIN 26
 #define B1_PIN 27
@@ -25,7 +28,7 @@
 #define LAT_PIN 4
 #define OE_PIN 15
 #define CLK_PIN 16
-
+*/
 
 /*--------------------- MATRIX LILBRARY CONFIG -------------------------*/
 #define PANEL_RES_X 64      // Number of pixels wide of each INDIVIDUAL panel module. 
